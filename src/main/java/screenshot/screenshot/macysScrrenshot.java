@@ -25,7 +25,7 @@ public class macysScrrenshot extends methods {
 		System.setProperty("webdriver.chrome.driver", "/home/parag/Music/chromedriver");
 		driver = new ChromeDriver();
 		// driver = new FirefoxDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 
 		/*
 		 * String key="https://www.modaoperandi.com/,https://www.macys.com/"; //
