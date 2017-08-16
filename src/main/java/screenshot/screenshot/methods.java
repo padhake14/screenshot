@@ -108,11 +108,12 @@ public class methods {
 						SimpleDateFormat dateFormatt = new SimpleDateFormat("yyyy-MM-dd HH-mm");
 						TakesScreenshot ts = (TakesScreenshot) driver;
 						File source = ts.getScreenshotAs(OutputType.FILE);
-						FileUtils.copyFile(source,
-						new File("/var/www/html/screen/images/" + dateFormatt.format(datee) + " : " + key2 + ".png"));
-						
+						FileUtils.copyFile(source, new File(
+								"/var/www/html/screen/images/" + dateFormatt.format(datee) + " : " + key2 + ".png"));
+
 						// sql connection
-						java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost/test", "root","root");
+						java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost/test", "root",
+								"root");
 
 						Statement st = con.createStatement();
 						// File imgfile = new File("./screenshot/" +
@@ -120,8 +121,8 @@ public class methods {
 
 						// FileInputStream fin = new FileInputStream(imgfile);
 
-						PreparedStatement pre = con.prepareStatement("INSERT INTO image_dataa ( date, name,image) VALUES ( ?, ?, ?)");
-						
+						PreparedStatement pre = con
+								.prepareStatement("INSERT INTO image_dataa ( date, name,image) VALUES ( ?, ?, ?)");
 
 						pre.setTimestamp(1, new Timestamp(System.currentTimeMillis()));
 						pre.setString(2, key2);
