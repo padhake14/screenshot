@@ -1,0 +1,2 @@
+modaoperandi=https://www.modaoperandi.com/
+macys=https://www.macys.com/

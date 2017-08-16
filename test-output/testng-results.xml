@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49919" started-at="2017-08-16T12:32:39Z" finished-at="2017-08-16T12:33:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49919" started-at="2017-08-16T12:32:39Z" finished-at="2017-08-16T12:33:29Z">
+      <class name="screenshot.screenshot.macysScrrenshot">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:screenshot.screenshot.macysScrrenshot@47c62251]" name="openBrowser" is-config="true" duration-ms="7339" started-at="2017-08-16T18:02:39Z" finished-at="2017-08-16T18:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="scrrenShot()[pri:0, instance:screenshot.screenshot.macysScrrenshot@47c62251]" name="scrrenShot" duration-ms="42442" started-at="2017-08-16T18:02:46Z" finished-at="2017-08-16T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrrenShot -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:screenshot.screenshot.macysScrrenshot@47c62251]" name="quit" is-config="true" duration-ms="128" started-at="2017-08-16T18:03:29Z" finished-at="2017-08-16T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- screenshot.screenshot.macysScrrenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

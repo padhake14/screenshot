@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="screenshot.screenshot.macysScrrenshot">
+        <methods>
+          <include name="scrrenShot"/>
+          <include name="openBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- screenshot.screenshot.macysScrrenshot -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
